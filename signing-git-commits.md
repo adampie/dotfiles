@@ -7,3 +7,4 @@
 1. echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
 1. gpg --armor --export AAAAAAAAAAAAAAA | pbcopy
 1. Add public key to GitHub
+1. git config commit.gpgsign true
