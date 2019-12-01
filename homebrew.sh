@@ -11,6 +11,9 @@ declare -a system_brews=(
     "mas"
     "bash"
     "git"
+    "gpg2" 
+    "gnupg" 
+    "pinentry-mac"
 )
 
 declare -a user_brews=(
@@ -30,6 +33,7 @@ declare -a casks=(
 	"tower"
     "font-hack"
     "jetbrains-toolbox"
+    "gpg-suite"
 )
 
 # Install CommandLineTools
