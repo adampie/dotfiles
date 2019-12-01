@@ -8,3 +8,4 @@
 1. gpg --armor --export AAAAAAAAAAAAAAA | pbcopy
 1. Add public key to GitHub
 1. git config commit.gpgsign true
+1. git config --global user.email email@domain.com  (same as GPG key)
