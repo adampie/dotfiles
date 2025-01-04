@@ -1,6 +1,9 @@
 {{- if eq .chezmoi.os "darwin" -}}
 #!/bin/bash
 
+export HOMEBREW_NO_ANALYTICS=1
+brew analytics off
+
 brew bundle --no-lock --file=/dev/stdin <<EOF
 brew "git"
 brew "chezmoi"
