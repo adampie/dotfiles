@@ -5,7 +5,10 @@ packages:
     - git
     - mise
     - ripgrep
+    - starship
     - watch
+    - gpg
+
   casks:
     - 1password
     - 1password-cli

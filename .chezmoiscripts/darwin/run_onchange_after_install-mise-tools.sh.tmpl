@@ -1,0 +1,6 @@
+{{ if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+
+# hash: {{ include "dot_config/mise/config.toml" | sha256sum }}
+mise install
+{{ end -}} 

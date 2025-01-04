@@ -14,5 +14,5 @@ updates:
     labels:
       - "dependencies"
       - "mise"
-    file-type: ".tool-versions"
-    file-name: "dot_tool-versions" 
+    file-type: "config.toml"
+    file-name: "dot_config/mise/config.toml" 
