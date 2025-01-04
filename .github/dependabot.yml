@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "mise"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    target-branch: "main"
+    versioning-strategy: "auto"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "mise"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "mise"
+    file-type: ".tool-versions"
+    file-name: "dot_tool-versions" 
