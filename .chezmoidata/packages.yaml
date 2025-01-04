@@ -1,6 +1,6 @@
 packages:
-  brew:
+  brews:
     - git
     - ripgrep
-  cask:
+  casks:
     - ghostty
