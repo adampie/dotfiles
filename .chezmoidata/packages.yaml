@@ -1,6 +1,17 @@
 packages:
   brews:
+    - chezmoi
+    - curl
     - git
+    - mise
     - ripgrep
+    - watch
   casks:
+    - 1password
+    - 1password-cli
+    - beyond-compare
+    - cleanshot
+    - cursor
     - ghostty
+    - jetbrains-toolbox
+    - tower
