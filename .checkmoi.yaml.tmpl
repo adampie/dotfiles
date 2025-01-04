@@ -1,5 +1,0 @@
-{{- $choices := list "personal" "work" -}}
-{{- $deviceType := promptChoiceOnce . "deviceType" "Is this a personal or work device?" $choices -}}
-
-data:
-    deviceType: {{- $deviceType | quote -}}
