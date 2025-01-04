@@ -1,0 +1,14 @@
+#!/bin/bash
+
+{{ if eq .chezmoi.os "darwin" }}
+
+if ! command -v xcode-select >/dev/null 2>&1; then
+    echo "Installing xcode command line tools..."
+    xcode-select --install
+    
+    while ! xcode-select -p >/dev/null 2>&1; do
+        sleep 5
+    done
+fi
+
+{{ end }} 
