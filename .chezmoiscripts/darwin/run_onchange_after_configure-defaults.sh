@@ -24,3 +24,6 @@ defaults write com.apple.dock "mru-spaces" -bool "false"
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad "Clicking" -bool "true"
 defaults write NSGlobalDomain "com.apple.mouse.tapBehavior" -int "1"
 defaults write NSGlobalDomain "com.apple.swipescrolldirection" -bool "false"
+
+# Apple Intelligence
+defaults write com.apple.AppleIntelligenceReport "reportDuration" -int "0"
