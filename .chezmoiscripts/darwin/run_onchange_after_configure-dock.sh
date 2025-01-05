@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -euo pipefail
+set -eufo pipefail
 
 trap 'killall "Dock"' EXIT
 
