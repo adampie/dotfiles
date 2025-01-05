@@ -1,8 +1,9 @@
 packages:
   brews:
+    - git
     - chezmoi
     - curl
-    - git
+    - dockutil
     - mise
     - ripgrep
     - starship
