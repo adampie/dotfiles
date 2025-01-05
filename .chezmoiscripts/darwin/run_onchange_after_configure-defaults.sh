@@ -19,6 +19,7 @@ defaults write NSGlobalDomain "NSDocumentSaveNewDocumentsToCloud" -bool "false"
 
 # Mission Control
 defaults write com.apple.dock "mru-spaces" -bool "false"
+defaults write com.apple.WindowManager EnableStandardClickToShowDesktop -bool false
 
 # Trackpad
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad "Clicking" -bool "true"
