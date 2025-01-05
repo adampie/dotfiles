@@ -1,14 +1,14 @@
 packages:
   brews:
-    - git
     - chezmoi
     - curl
     - dockutil
+    - git
+    - gpg
     - mise
     - ripgrep
     - starship
     - watch
-    - gpg
 
   casks:
     - 1password
@@ -18,4 +18,6 @@ packages:
     - cursor
     - ghostty
     - jetbrains-toolbox
+    - ollama
+    - orbstack
     - tower
