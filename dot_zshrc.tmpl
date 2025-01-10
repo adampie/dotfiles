@@ -6,23 +6,4 @@ eval "$(/usr/local/bin/brew shellenv)"
 eval "$(/usr/local/bin/mise activate zsh)"
 {{- end }}
 
-update_mise_versions() {
-    local config_file="$HOME/.config/mise/config.toml"
-    local temp_file=$(mktemp)
-    local tools=($(grep -E '^[a-z]+ =' "$config_file" | cut -d' ' -f1))
-    
-    echo "[tools]" > "$temp_file"
-    
-    for tool in "${tools[@]}"; do
-        local version=$(mise ls-remote "$tool" | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -V | tail -n 1)
-        echo "$tool = \"$version\"" >> "$temp_file"
-    done
-    
-    mv "$temp_file" "$config_file"
-    echo "Updated mise config with latest stable versions:"
-    cat "$config_file"
-
-    mise install
-} 
-
 eval "$(starship init zsh)"
