@@ -6,4 +6,8 @@ eval "$(/usr/local/bin/brew shellenv)"
 eval "$(/usr/local/bin/mise activate zsh)"
 {{- end }}
 
+function mise_upgrade() {
+    mise upgrade --bump
+}
+
 eval "$(starship init zsh)"
