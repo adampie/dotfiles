@@ -1,0 +1,7 @@
+{{ if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+
+chown -R "$USER:$(id -gn)" ~/.gnupg
+chmod 700 ~/.gnupg
+chmod 600 ~/.gnupg/*
+{{ end -}} 
