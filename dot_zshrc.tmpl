@@ -7,18 +7,18 @@ eval "$(/usr/local/bin/mise activate zsh)"
 {{- end }}
 
 function update() {
+    chezmoi update
+
     brew update
     brew upgrade --greedy
     brew cleanup
 
     mise upgrade --bump
-    
+
     chezmoi add ~/.config/mise/config.toml
     chezmoi git add dot_config/mise/config.toml
     chezmoi git -- commit -m "mise updates"
     chezmoi git push
-
-    chezmoi update
 
     source ~/.zshrc
 }
