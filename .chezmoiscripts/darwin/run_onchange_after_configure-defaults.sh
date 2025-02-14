@@ -28,3 +28,6 @@ defaults write NSGlobalDomain "com.apple.swipescrolldirection" -bool "false"
 
 # Apple Intelligence
 defaults write com.apple.AppleIntelligenceReport "reportDuration" -int "0"
+
+# Windows
+defaults write com.apple.windowmanager "EnableTiledWindowMargins" -bool "false"
