@@ -9,6 +9,7 @@ packages:
     - ripgrep
     - starship
     - watch
+    - mas
 
   casks:
     - 1password
@@ -21,3 +22,12 @@ packages:
     - ollama
     - orbstack
     - tower
+
+  mas:
+    # Safari extensions
+    - "1622835804" # Kagi for Safari
+    - "1569813296" # 1Password for Safari
+
+    # Apps
+    - "1662217862" # Wipr 2
+    - "1358823008" # Flighty

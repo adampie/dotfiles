@@ -9,4 +9,8 @@ brew {{ . | quote }}
 cask {{ . | quote }}
 {{ end -}}
 EOF
+
+{{ range .packages.mas -}}
+mas install {{ . | quote }}
+{{ end -}}
 {{ end -}} 

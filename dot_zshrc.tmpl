@@ -13,6 +13,8 @@ function update() {
     brew upgrade --greedy
     brew cleanup
 
+    mas upgrade
+
     mise upgrade --bump
     chezmoi add ~/.config/mise/config.toml
     if chezmoi diff ~/.config/mise/config.toml | grep -q .; then
