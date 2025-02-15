@@ -22,6 +22,7 @@ packages:
     - ollama
     - orbstack
     - tower
+    - prowritingaid
 
   mas:
     # Safari extensions
