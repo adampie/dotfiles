@@ -36,4 +36,8 @@ function brewtree() {
 
 source ~/.config/op/plugins.sh
 
+if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
+  . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+fi
+
 eval "$(starship init zsh)"
