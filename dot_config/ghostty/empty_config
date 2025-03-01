@@ -1,1 +1,4 @@
-theme=Dracula+
+theme = Dracula+
+shell-integration = zsh
+copy-on-select = clipboard
+window-save-state = always
