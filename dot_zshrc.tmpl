@@ -1,10 +1,5 @@
-{{- if eq .chezmoi.arch "arm64" }}
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(/opt/homebrew/bin/mise activate zsh)"
-{{- else }}
-eval "$(/usr/local/bin/brew shellenv)"
-eval "$(/usr/local/bin/mise activate zsh)"
-{{- end }}
 
 function update() {
     chezmoi update
@@ -35,9 +30,5 @@ function brewtree() {
 }
 
 source ~/.config/op/plugins.sh
-
-if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
-  . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
-fi
 
 eval "$(starship init zsh)"
