@@ -21,6 +21,31 @@ function update() {
     source ~/.zshrc
 }
 
+function adampie() {
+    ghorg clone adampie --token=$(op item get --vault 'Private' 'ghorg - adampie' --fields=credential --reveal) \
+        --scm=github \
+        --protocol=ssh \
+        --path="$HOME/Code" \
+        --clone-type=user \
+        --include-submodules \
+        --fetch-all
+}
+
+function fricory() {
+    ghorg clone fricory --token=$(op item get --vault 'Private' 'ghorg - fricory' --fields=credential --reveal) \
+        --scm=github \
+        --protocol=ssh \
+        --path="$HOME/Code" \
+        --clone-type=org \
+        --include-submodules \
+        --fetch-all
+}
+
+function updatecode() {
+    adampie
+    fricory
+}
+
 function cursorrules() {
     cp ~/.cursorrules .
 }
