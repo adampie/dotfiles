@@ -2,6 +2,7 @@
 #!/bin/bash
 
 mkdir -p "$HOME/.gnupg"
+gpg --list-keys
 
 chown -R "$USER:$(id -gn)" ~/.gnupg
 chmod 700 ~/.gnupg
