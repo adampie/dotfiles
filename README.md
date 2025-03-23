@@ -1,5 +1,8 @@
 # dotfiles
 
 ```sh
-cd /tmp && sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply adampie
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+chezmoi init --apply adampie
 ```
