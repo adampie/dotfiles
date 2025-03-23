@@ -1,6 +1,8 @@
 {{ if eq .chezmoi.os "darwin" -}}
 #!/bin/bash
 
+brew analytics off
+
 brew bundle --file=/dev/stdin <<EOF
 {{ range .packages.brews -}}
 brew {{ . | quote }}
