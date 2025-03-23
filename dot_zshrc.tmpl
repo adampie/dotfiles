@@ -22,7 +22,7 @@ function update() {
     source ~/.zshrc
 }
 
-function adampie() {
+function gadampie() {
     ghorg clone adampie --token=$(op item get --vault 'Private' 'ghorg - adampie' --fields=credential --reveal) \
         --scm=github \
         --protocol=ssh \
@@ -32,7 +32,7 @@ function adampie() {
         --fetch-all
 }
 
-function fricory() {
+function gfricory() {
     ghorg clone fricory --token=$(op item get --vault 'Private' 'ghorg - fricory' --fields=credential --reveal) \
         --scm=github \
         --protocol=ssh \
