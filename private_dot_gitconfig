@@ -1,0 +1,14 @@
+[user]
+	email = adam@pietrzycki.com
+	name = Adam Pietrzycki
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBpWz+23cfr/f+6dYL/19Ce1uTKiQ3Vy3yJy4avkENSc
+
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
+
+[includeIf "gitdir:~/Code/fricory/"]
+    path = ~/.gitconfig-fricory
