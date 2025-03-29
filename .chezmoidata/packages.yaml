@@ -25,6 +25,7 @@ packages:
     - orbstack
     - tower
     - prowritingaid
+    - proxyman
 
   mas:
     # Safari extensions
