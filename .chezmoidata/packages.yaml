@@ -12,6 +12,7 @@ packages:
     - mas
     - ghorg
     - cosign
+    - dive
 
   casks:
     - 1password
