@@ -27,6 +27,7 @@ packages:
     - tower
     - prowritingaid
     - proxyman
+    - ghidra
 
   mas:
     # Safari extensions
