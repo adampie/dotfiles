@@ -28,6 +28,7 @@ packages:
     - prowritingaid
     - proxyman
     - ghidra
+    - daisydisk
 
   mas:
     # Safari extensions
