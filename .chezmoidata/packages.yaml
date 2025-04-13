@@ -32,8 +32,8 @@ packages:
     - knockknock
     - blockblock
     - whatsyoursign
-    - lulu
-    - oversight
+    - little-snitch
+    - micro-snitch
 
   mas:
     # Safari extensions
