@@ -29,8 +29,11 @@ packages:
     - proxyman
     - ghidra
     - daisydisk
-    - knockknock
     - blockblock
+    - knockknock
+    - taskexplorer
+    - ransomwhere
+    - reikey
     - whatsyoursign
     - little-snitch
     - micro-snitch
