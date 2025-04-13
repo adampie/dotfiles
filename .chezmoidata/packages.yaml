@@ -29,6 +29,11 @@ packages:
     - proxyman
     - ghidra
     - daisydisk
+    - knockknock
+    - blockblock
+    - whatsyoursign
+    - lulu
+    - oversight
 
   mas:
     # Safari extensions
