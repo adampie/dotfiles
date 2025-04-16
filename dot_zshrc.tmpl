@@ -22,6 +22,10 @@ function update() {
     source ~/.zshrc
 }
 
+function updatemac() {
+    sudo softwareupdate -iaR
+}
+
 function gadampie() {
     ghorg clone adampie --token=$(op item get --vault 'Private' 'ghorg - adampie' --fields=credential --reveal) \
         --scm=github \
