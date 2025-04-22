@@ -1,48 +1,49 @@
 packages:
   brews:
     - chezmoi
+    - cosign
     - curl
+    - dive
     - dockutil
+    - ghorg
     - git
     - gpg
+    - mas
     - mise
     - ripgrep
     - starship
     - watch
-    - mas
-    - ghorg
-    - cosign
-    - dive
 
   casks:
     - 1password
     - 1password-cli
     - beyond-compare
+    - blockblock
     - cleanshot
     - cursor
+    - daisydisk
+    - ghidra
     - ghostty
     - jetbrains-toolbox
-    - ollama
-    - orbstack
-    - tower
-    - prowritingaid
-    - proxyman
-    - ghidra
-    - daisydisk
-    - blockblock
     - knockknock
-    - taskexplorer
-    - ransomwhere
-    - reikey
-    - whatsyoursign
     - little-snitch
     - micro-snitch
+    - ollama
+    - orbstack
+    - prowritingaid
+    - proxyman
+    - ransomwhere
+    - reikey
+    - slack
+    - taskexplorer
+    - tower
+    - whatsyoursign
 
   mas:
     # Safari extensions
-    - "1622835804" # Kagi for Safari
     - "1569813296" # 1Password for Safari
+    - "1622835804" # Kagi for Safari
 
     # Apps
-    - "1662217862" # Wipr 2
     - "1358823008" # Flighty
+    - "1662217862" # Wipr 2
