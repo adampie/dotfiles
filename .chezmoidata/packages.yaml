@@ -35,6 +35,7 @@ packages:
     - ransomwhere
     - reikey
     - slack
+    - superwhisper
     - taskexplorer
     - tower
     - whatsyoursign
