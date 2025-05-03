@@ -27,8 +27,8 @@ packages:
     - jetbrains-toolbox
     - knockknock
     - little-snitch
+    - lm-studio
     - micro-snitch
-    - ollama
     - orbstack
     - prowritingaid
     - proxyman
