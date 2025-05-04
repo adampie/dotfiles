@@ -61,6 +61,10 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias ghidra="ghidraRun"
 
+function ip() {
+    curl --silent https://ip.adampie.dev | grep -o '"ip": "[^"]*' | sed 's/"ip": "//'
+}
+
 export PATH="$PATH:/Users/adampie/.lmstudio/bin"
 
 eval "$(starship init zsh)"
