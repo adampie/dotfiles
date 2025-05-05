@@ -22,7 +22,6 @@ packages:
     - cleanshot
     - cursor
     - daisydisk
-    - ghidra
     - ghostty
     - jetbrains-toolbox
     - knockknock
